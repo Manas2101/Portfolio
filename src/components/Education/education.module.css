@@ -1,0 +1,72 @@
+@import "../../vars.css";
+
+.education {
+  color: var(--color-text);
+  margin: 50px 10%; 
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.educationContent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.educationItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.educationItem img {
+  width: 50px; 
+  margin-right: 20px; 
+}
+
+.educationItemDetails {
+  font-family: var(--font-roboto);
+}
+
+.educationItemDetails h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.educationItemDetails p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #ddd;
+}
+
+@media screen and (max-width: 830px) {
+  .educationContent {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .educationItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .educationItem img {
+    margin-bottom: 10px;
+  }
+}

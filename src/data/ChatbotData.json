@@ -1,0 +1,31 @@
+{
+    "intents": [
+      {
+        "intent": "greeting",
+        "keywords": ["hello", "hi", "hey"],
+        "value": "Hello! How can I assist you today?"
+      },
+      {
+        "intent": "skills",
+        "keywords": ["skills", "expertise", "technologies"],
+        "value": "Here are my skills:\n\nFrontend: JS, React\nBackend: Node.js, Express.js\n\nDatabases: MySQL, PostgreSQL, MongoDB"
+      },
+      {
+        "intent": "experience",
+        "keywords": ["experience", "work"],
+        "value": "I am currently working as an SDE intern at Sampark Software."
+      },
+      {
+        "intent": "Projects",
+        "keywords": ["Projects", "Tasks"],
+        "value": "I have made certain projects including full stack websites and different projects in machine learning."
+      },
+      {
+        "intent": "Contact",
+        "keywords": ["Phone", "contact"],
+        "value": "You can contact me through email - panmanas2003@gmail.com."
+      }
+
+    ]
+  }
+  

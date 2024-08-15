@@ -1,0 +1,26 @@
+[
+  {
+    "title": "AI-Powered Facial Detection System",
+    "imageSrc": "projects/facial.png",
+    "description": "Developed a facial detecton system using CNN, trained with diverse datasets.",
+    "skills": ["Machine Learning", "CNN", "Python"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Manas2101/Projects/tree/main/Face_Emotion_Recognition_Machine_Learning-main"
+  },
+  {
+    "title": "Online Quiz Application",
+    "imageSrc": "projects/quiz.png",
+    "description": "This is a full-stack Quiz application developed for both educators and learners.",
+    "skills": ["HTML", "CSS", "JS", "PHP","Mysql"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Manas2101/Online-Quiz-Application"
+  },
+  {
+    "title": "Explorer",
+    "imageSrc": "projects/explorer.png",
+    "description": "Created a user friendly explorer interface for easy navigation and interaction. Also has additional features like posting pictures,subitting reviews",
+    "skills": ["React", "Express", "Node","MongoDB"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

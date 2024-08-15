@@ -1,0 +1,94 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.skillsContent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.skillCategory {
+  background: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.categoryTitle {
+  color: var(--color-text);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.skillsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skillItem {
+  font-size: 18px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+  text-align: center;
+  width: 150px; 
+}
+
+.skillItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.skillItem img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .skillsContent {
+    gap: 20px;
+  }
+
+  .skillItem {
+    width: auto;
+    padding: 10px;
+  }
+}

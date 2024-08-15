@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Software Engineer Intern(Frontend)",
+    "organisation": "Sampark Softwares Pvt Ltd",
+    "startDate": "July, 2024",
+    "endDate": "Present",
+    "experiences": ["Worked on Different Projects including a Portfolio with React chatbot-Kit", "This helps in an integrated NLP Chatbot in React"],
+    "imageSrc": "history/sampark.png"
+  },
+  {
+    "role": "Software Engineer Intern(Backend)",
+    "organisation": "Sampark Softwares Pvt Ltd",
+    "startDate": "july, 2021",
+    "endDate": "Mar, 2024",
+    "experiences": ["Worked on Different APIs", "Smooth Flow of data and handling APIs"],
+    "imageSrc": "history/sampark.png"
+  },
+  {
+    "role": "SWE Intern",
+    "organisation": "Jupiter Money",
+    "startDate": "Apr, 2020",
+    "endDate": "Jun, 2021",
+    "experiences": [
+      "Worked on navbars and routers",
+      "Helped create UI components"
+    ],
+    "imageSrc": "history/jupiter.png"
+  }
+]

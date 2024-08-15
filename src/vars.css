@@ -1,0 +1,13 @@
+:root {
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: hsl(180, 4%, 5%);
+
+  --font-roboto: "Roboto";
+}
+._App_1y3ty_1 {
+  text-align: center;
+  background-color: #191c27;
+}
