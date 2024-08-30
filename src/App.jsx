@@ -15,7 +15,7 @@ import ChatbotContainer from "./components/ChatbotContainer";
 import './components/Chatbot.css';
 
 const App = () => {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch(); 
 
   return (
     <div className={styles.App}>
