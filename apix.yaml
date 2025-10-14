@@ -3,8 +3,8 @@ kind: APIMetadata
 metadata:
   name: payment-service-api
   version: v2.1.0
-  createdAt: '2025-10-15T00:02:41.756786'
-  updatedAt: '2025-10-15T00:02:41.756796'
+  createdAt: '2025-10-15T00:08:43.338668'
+  updatedAt: '2025-10-15T00:08:43.338691'
 spec:
   technicalName: payment-service-api
   version: v2.1.0
