@@ -1,10 +1,11 @@
+---
 apiVersion: apix.io/v1
 kind: APIMetadata
 metadata:
   name: payment-service-api
   version: v2.1.0
-  createdAt: '2025-10-15T00:02:41.756786'
-  updatedAt: '2025-10-15T00:02:41.756796'
+  createdAt: '2025-10-16T19:53:35.917614'
+  updatedAt: '2025-10-16T19:53:35.917627'
 spec:
   technicalName: payment-service-api
   version: v2.1.0
@@ -15,6 +16,28 @@ spec:
     status: active
   classification: internal
   description: Payment processing API for e-commerce transactions
+  ownership:
+    team: Payment Team
+    contact: payment-team@example.com
+
+---
+apiVersion: apix.io/v1
+kind: APIMetadata
+metadata:
+  name: checkout-service-api
+  version: v1.0.0
+  createdAt: '2025-10-16T19:53:35.917634'
+  updatedAt: '2025-10-16T19:53:35.917637'
+spec:
+  technicalName: checkout-service-api
+  version: v1.0.0
+  snow:
+    businessApplicationId: APP001234
+  platform: gcp
+  lifecycle:
+    status: active
+  classification: internal
+  description: Checkout and cart management API
   ownership:
     team: Payment Team
     contact: payment-team@example.com
